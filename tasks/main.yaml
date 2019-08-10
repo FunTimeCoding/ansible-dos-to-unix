@@ -1,1 +1,4 @@
 ---
+- homebrew:
+    name: dos2unix
+  when: ansible_system == 'Darwin'
