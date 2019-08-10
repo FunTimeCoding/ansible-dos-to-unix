@@ -1,0 +1,4 @@
+---
+- hosts: localhost
+  roles:
+    - ansible-dos-to-unix
